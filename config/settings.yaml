@@ -1,0 +1,16 @@
+project:
+  name: AI-volatility-regime-detector
+
+market:
+  symbol: MNQ
+  timeframe: 5m
+  lookback_bars: 100
+
+regime:
+  vol_window: 20
+  low_vol_threshold: 0.8
+  high_vol_threshold: 1.2
+
+reporting:
+  enable_console: true
+  report_interval_seconds: 300
